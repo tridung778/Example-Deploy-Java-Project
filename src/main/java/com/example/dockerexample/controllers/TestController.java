@@ -11,6 +11,6 @@ public class TestController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
-        return "Test deploy java spring project on Render by Docker";
+        return "Deployed by Tri Dung!";
     }
 }
